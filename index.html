@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <title>PET - PErsornal Terminal</title>
+</head>
+<body>
+  <!-- Navigation & Logo -->
+  <header id="header">
+    <div class="header-hero">
+    <nav id="nav-bar">
+      <h3 class="logo">
+        <a href="index.html"><i class="fa fa-plug" aria-hidden="true"></i>PET</a></h3>
+      </h3>
+      <!-- Nav-links -->
+      <div class="nav-link">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#newsletter">Newsletter</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+   <!-- Welcome -->
+  <div class="content">
+    <h2><span class="bold">PE</span>rsonal <span class="bold">T</span>erminal</h2>
+    <p>Brand new innovative technology.</p>
+  </div>
+</div>
+</header>
+
+<!-- About Section -->
+<main>
+  <section id="about" class="flex-columns">
+    <div class="row">
+      <div class="column">
+        <div class="column-1">
+          <img src="./images/about.jpg" alt="PET prototype">
+        </div>
+      </div>
+      <div class="column">
+        <div class="column-2 bg-secondary">
+          <h4>Innovative technology on a new level.</h4>
+          <h2>What is 'PET'?</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum ducimus provident quam sequi veniam accusamus in cum quasi cupiditate nihil voluptatum molestiae libero reiciendis nam animi alias, officia dolor aspernatur quia fugit architecto earum perferendis error. Voluptatum iusto quod consectetur.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Trailer -->
+  <div class="iframe-container">
+    <iframe id="video" src="https://www.youtube.com/embed/o3IQ1JrXnV8">
+    </iframe>
+  </div>
+
+  <!-- Subscribe to Newsletter -->
+    <section id="newsletter" class="newsletter flex-columns flex-reverse">
+      <div class="row">
+        <div class="column">
+          <div class="column-1">
+            <img src="./images/newsletter.jpg" alt="Subscribe to our newsletter to be updated on new PETs and more">
+          </div>
+        </div>
+        <div class="column">
+          <div class="column-2 bg-secondary">
+            <h2>Subscribe to our Newsletter</h2>
+            <p>Stay up to date with the latest news regarding PET.</p>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <div class="form-control">
+              <label for="Name">Name:</label>
+              <input type="text" name="name" id="name" placeholder="Type in your full name" required />
+            </div>
+
+            <div class="form-control">
+              <label for="email">Email Address:</label>
+              <input type="email" name="email" id="email" placeholder="Type in your email address" required />
+            </div>
+            <!-- Subscribe Button -->
+            <input type="submit" id="submit" value="Subscribe" class="btn">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="contact flex-columns">
+      <div class="row">
+        <div class="column">
+          <div class="column-1">
+            <img src="./images/contact.jpg" alt="Contact us if you have any questions or suggestions">
+          </div>
+        </div>
+        <div class="column">
+          <div class="column-2">
+            <h4>We're here to help and always welcome feedback.</h4>
+            <h2>Contact Us</h2>
+            <p>Please fill out all the fields and we will return your message as soon as possible. Thanks!</p>
+            <form action="https://www.freecodecamp.com/email-submit" class="contact-form">
+               <!-- Full Name -->
+            <div class="form-control">
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" placeholder="Please type in your full name (first and last name)" required="required">
+            </div>
+            <!-- Email Address -->
+            <div class="form-control">
+              <label for="email">Email Address:</label>
+              <input type="email" name="email" id="email" placeholder="Please type in your email address" required="required">
+            </div>
+            <!-- Phone Number -->
+            <div class="form-control">
+              <label for="phone">Phone Number:</label>
+              <input type="text" name="phone" id="phone" placeholder="Please type in your phone number" required="required">
+            </div>
+            <!-- Message -->
+            <div class="form-control">
+              <label for="message">Message:</label>
+              <textarea name="message" id="message" placeholder="Type in your message here"></textarea>
+            </div>
+            <!-- Submit -->
+            <input type="submit" value="Submit" id="submit" class="btn">
+              </div>
+            </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>   
+    <!-- Footer -->
+  <footer class="footer">
+    <a href="mailto:kmnguyen2@mail.fhsu.edu">kmnguyen2@mail.fhsu.edu</a>
+    <div class="footer-social">
+      <a href="https://github.com/kmnguyenkmn"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/kmnguyenkmn/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+    </div>
+    <a href="https://github.com/kmnguyenkmn/PET/blob/master/README.md">Image & Reference credits can be found here</a>
+    </footer>
+</body>
+</html>
