@@ -47,7 +47,7 @@ a:hover {
 
 /* Header Hero */
 .header-hero {
-  background: url("./images/hero.jpg") no-repeat center center/cover;
+  background: url("/images/hero.jpg") no-repeat center center/cover;
   height: 100vh;
   position: relative;
   color: #ccc;
