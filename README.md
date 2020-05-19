@@ -1,7 +1,7 @@
 # PET
 Part of the Landing Page Project from freeCodeCamp curriculum.
 
-#DISCLAIMER - PLEASE READ!
+# DISCLAIMER - PLEASE READ!
 
 ## Microsoft Surface is copyrighted to Microsoft.
 ## "PET" or "PErsonal Terminal" is part of the Megaman Battle Network series, which is copyrighted to Capcom.
