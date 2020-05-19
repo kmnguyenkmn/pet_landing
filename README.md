@@ -1,6 +1,9 @@
 # PET
 Part of the Landing Page Project from freeCodeCamp curriculum.
 
+GitHub version:
+https://kmnguyenkmn.github.io/pet_landing/
+
 # DISCLAIMER - PLEASE READ!
 
 ## Microsoft Surface is copyrighted to Microsoft.
